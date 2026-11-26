@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – CamLAN</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --border: #334155;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --card: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --accent: #0284c7;
+        --border: #e2e8f0;
+      }
+    }
+    body {
+      margin: 0;
+      padding: 24px 16px 48px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 32px 28px;
+    }
+    .lang-nav {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 24px;
+      font-size: 0.95rem;
+    }
+    .lang-nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 1.75rem;
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 1.2rem;
+      color: var(--accent);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-bottom: 20px;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
+    }
+    a {
+      color: var(--accent);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <nav class="lang-nav">
+      <a href="#en">English</a>
+      <a href="#pl">Polski</a>
+    </nav>
+
+    <section id="en">
+      <h1>Privacy Policy – CamLAN</h1>
+      <p class="meta">
+        Application ID: <code>app.camlan.tv</code><br>
+        Effective date: November 26, 2026
+      </p>
+
+      <p>
+        CamLAN is a local network (LAN) RTSP viewer for IP cameras and NVR systems on Android TV, smartphones, and tablets.
+        Your privacy is built into the architecture of the app: CamLAN operates locally and does not collect or transmit personal data.
+      </p>
+
+      <h2>1. Data Collection and Third-Party Sharing</h2>
+      <p>
+        CamLAN does <strong>not</strong> collect, store on external servers, sell, or share any personal information. The app contains:
+      </p>
+      <ul>
+        <li>No user accounts or cloud services.</li>
+        <li>No advertisements or ad SDKs.</li>
+        <li>No analytics, telemetry, or automatic crash reporting.</li>
+      </ul>
+
+      <h2>2. Local Network Connections (RTSP)</h2>
+      <p>
+        All video and audio streams are established directly between your device and the IP cameras or NVR devices you configure
+        on your local network (or another network of your choice). CamLAN does not route traffic through any intermediary or cloud servers.
+      </p>
+
+      <h2>3. Local Storage of Configuration</h2>
+      <p>
+        Camera addresses, RTSP URLs, usernames, passwords, and app preferences are stored exclusively in the local storage
+        (<code>SharedPreferences</code>) of your Android device. Uninstalling the app or clearing app data permanently removes this information from the device.
+      </p>
+
+      <h2>4. Configuration Export and Import (JSON)</h2>
+      <p>
+        On your explicit request, CamLAN can export your camera list and settings to a JSON file or import them back.
+        When exporting, you can choose between excluding passwords (recommended) or saving a plain-text file with passwords in a location you select.
+        You are solely responsible for securing any exported backup files.
+      </p>
+
+      <h2>5. Local Frame Snapshots</h2>
+      <p>
+        When you manually trigger a snapshot, the captured frame is saved exclusively to your device's local storage
+        (<code>Pictures/CamLAN</code> on Android 10 and newer, or the app's local pictures folder on Android 7–9). Snapshots are never uploaded anywhere.
+      </p>
+
+      <h2>6. Children's Privacy</h2>
+      <p>
+        CamLAN does not knowingly collect any data from anyone, including children under the age of 13.
+      </p>
+
+      <h2>7. Changes to This Policy</h2>
+      <p>
+        If future versions of CamLAN introduce changes that affect how data is handled, this page will be updated with a new effective date.
+      </p>
+
+      <h2>8. Contact</h2>
+      <p>
+        If you have questions about this Privacy Policy or the CamLAN application, contact us at:
+        <a href="mailto:support.camlan@gmail.com">support.camlan@gmail.com</a>
+      </p>
+    </section>
+
+    <hr>
+
+    <section id="pl" lang="pl">
+      <h1>Polityka Prywatności – CamLAN</h1>
+      <p class="meta">
+        Identyfikator aplikacji: <code>app.camlan.tv</code><br>
+        Data wejścia w życie: 26 listopada 2026 r.
+      </p>
+
+      <p>
+        CamLAN to aplikacja do podglądu na żywo kamer IP oraz rejestratorów NVR w sieci lokalnej (LAN) po protokole RTSP,
+        przeznaczona na Android TV, smartfony i tablety. Aplikacja działa całkowicie lokalnie i nie zbiera danych osobowych.
+      </p>
+
+      <h2>1. Zbieranie i udostępnianie danych</h2>
+      <p>
+        CamLAN <strong>nie zbiera</strong>, nie przesyła na zewnętrzne serwery ani nie udostępnia podmiotom trzecim żadnych danych użytkowników. Aplikacja nie zawiera:
+      </p>
+      <ul>
+        <li>kont użytkowników ani usług chmurowych,</li>
+        <li>reklam ani bibliotek reklamowych,</li>
+        <li>narzędzi analitycznych, telemetrii ani automatycznego wysyłania raportów awarii.</li>
+      </ul>
+
+      <h2>2. Połączenia w sieci lokalnej (RTSP)</h2>
+      <p>
+        Wszystkie połączenia wideo i audio nawiązywane są bezpośrednio pomiędzy urządzeniem użytkownika a skonfigurowanymi kamerami IP
+        lub rejestratorami NVR w sieci lokalnej (lub innej sieci wskazanej przez użytkownika). Ruch nigdy nie przechodzi przez serwery pośredniczące.
+      </p>
+
+      <h2>3. Lokalne przechowywanie konfiguracji</h2>
+      <p>
+        Adresy kamer, adresy URL RTSP, nazwy użytkowników, hasła oraz ustawienia wyświetlania są przechowywane wyłącznie lokalnie
+        w pamięci urządzenia użytkownika (Android <code>SharedPreferences</code>). Odinstalowanie aplikacji lub wyczyszczenie jej danych usuwa te informacje z urządzenia.
+      </p>
+
+      <h2>4. Eksport i import konfiguracji (JSON)</h2>
+      <p>
+        Na wyraźne żądanie użytkownika aplikacja umożliwia zapisanie konfiguracji do pliku JSON lub jej odczytanie.
+        Podczas eksportu użytkownik wybiera wariant bez haseł (zalecany) albo wariant z hasłami zapisany jako plik jawny we wskazanej lokalizacji.
+        Za zabezpieczenie wyeksportowanego pliku kopii zapasowej odpowiada użytkownik.
+      </p>
+
+      <h2>5. Zrzuty ekranu (Snapshot)</h2>
+      <p>
+        Ręcznie wywołany zrzut klatki z kamery zapisywany jest wyłącznie lokalnie w pamięci urządzenia
+        (<code>Pictures/CamLAN</code> na Androidzie 10 i nowszych lub w lokalnym katalogu obrazów aplikacji na Androidzie 7–9). Zrzuty nie są nigdzie wysyłane.
+      </p>
+
+      <h2>6. Prywatność dzieci</h2>
+      <p>
+        Aplikacja nie gromadzi żadnych danych od użytkowników w żadnym wieku, w tym od dzieci poniżej 13. roku życia.
+      </p>
+
+      <h2>7. Zmiany w Polityce Prywatności</h2>
+      <p>
+        W przypadku zmian w funkcjonowaniu aplikacji wpływających na prywatność, treść niniejszego dokumentu zostanie zaktualizowana wraz z nową datą wejścia w życie.
+      </p>
+
+      <h2>8. Kontakt</h2>
+      <p>
+        W sprawach dotyczących prywatności oraz wsparcia technicznego dla aplikacji CamLAN prosimy o kontakt pod adresem:
+        <a href="mailto:support.camlan@gmail.com">support.camlan@gmail.com</a>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
